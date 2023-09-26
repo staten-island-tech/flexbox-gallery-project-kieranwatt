@@ -17,24 +17,21 @@ body,
 .header{
     box-sizing: border-box;
     width: 75%;
-    border: solid green 10px;
     padding: 5px;
-    font-size: 10rem;
+    font-size: 8rem;
     justify-content: center;
     margin: auto;
 }
 .section-1{
     box-sizing: border-box;
     width: 75%;
-    margin: auto;
-    border: solid green 10px;
     padding: 5px;
     font-size: 1rem;
+    margin: auto;
 }
 .section-2{
     box-sizing: border-box;
     width: 75%;
-    border: solid red 10px;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
@@ -42,7 +39,6 @@ body,
 .section-3{
     box-sizing: border-box;
     width: 75%;
-    border: solid yellow 10px;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
@@ -52,5 +48,5 @@ body,
     width: 100%;
     padding: 5px;
     font-size: 1rem;
-    box-shadow: 5px 5px 10px white;
+    box-shadow: 5px 5px 10px black;
 }
