@@ -2,44 +2,55 @@ html,
 body,
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%; 
     text-align: center;
-    font-family: 'Libre Franklin', sans-serif;
     font-family: 'Mooli', sans-serif;
     background-image: url(neutralbackroundbeige.jpg);
+    
 }
 .main-container{
-    font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+}
+.header{
+    box-sizing: border-box;
+    width: 75%;
+    border: solid green 10px;
+    padding: 5px;
+    font-size: 10rem;
+    justify-content: center;
+    margin: auto;
 }
 .section-1{
     box-sizing: border-box;
-    width: 100%;
+    width: 75%;
+    margin: auto;
     border: solid green 10px;
     padding: 5px;
     font-size: 1rem;
 }
 .section-2{
     box-sizing: border-box;
-    width: 100%;
+    width: 75%;
     border: solid red 10px;
     padding: 5px;
     font-size: 1rem;
+    margin: auto;
 }
 .section-3{
     box-sizing: border-box;
-    width: 100%;
+    width: 75%;
     border: solid yellow 10px;
     padding: 5px;
     font-size: 1rem;
+    margin: auto;
 }
 .card{
     box-sizing: border-box;
     width: 100%;
-    border: solid #5B6DCD 10px;
     padding: 5px;
     font-size: 1rem;
+    box-shadow: 5px 5px 10px white;
 }
