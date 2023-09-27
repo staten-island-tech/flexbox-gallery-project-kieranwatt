@@ -1,56 +1,70 @@
 html,
 body,
-*{
+* {
     padding: 0;
     margin: 0px;
     box-sizing: border-box;
-    font-size: 62.5%; 
+    font-size: 62.5%;
     text-align: center;
     font-family: 'Mooli', sans-serif;
     background-image: url(neutralbackroundbeige.jpg);
-    
+    position: relative;
 }
-.main-container{
+
+.main-container {
     display: flex;
     align-items: center;
+    
 }
-.header{
+
+.header {
     box-sizing: border-box;
     width: 75%;
     padding: 5px;
     font-size: 8rem;
     justify-content: center;
     margin: auto;
+    animation: bladeemoves 4s infinite;
+    position: relative
 }
-.section-1{
+
+.section-1 {
     box-sizing: border-box;
     width: 75%;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
+    position: relative;
 }
-.section-2{
+
+.section-2 {
     box-sizing: border-box;
     width: 75%;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
+    position: relative;
 }
-.section-3{
+
+.section-3 {
     box-sizing: border-box;
     width: 75%;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
+    position: relative;
 }
-.section-4{
+
+.section-4 {
     box-sizing: border-box;
     width: 75%;
     padding: 5px;
     font-size: 1rem;
     margin: auto;
+    position: relative;
 }
-.card{
+
+.card {
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
@@ -58,39 +72,69 @@ body,
     box-shadow: 5px 5px 10px black;
     transition: all 0.3s;
 }
-.card1:hover{
+
+.card1:hover {
     transform: rotate(360deg);
 }
-.card2:hover{
+
+.card2:hover {
     transform: scale(1.15);
 }
-.card3:hover{
+
+.card3:hover {
     transform: matrix(0, 1, 1, 0, 1, 0);
 }
-.card4:hover{
+
+.card4:hover {
     transform: translate(-3rem, -4ex);
 }
-.card5:hover{
+
+.card5:hover {
     transform: scale(1.15);
 }
-.card6:hover{
-    transform: skew(10deg,10deg);
+
+.card6:hover {
+    transform: skew(10deg, 10deg);
 }
-.card7:hover{
+
+.card7:hover {
     transform: rotate(180deg);
 }
-.card8:hover{
+
+.card8:hover {
     transform: scale(1.15);
 }
-.card9:hover{
+
+.card9:hover {
     transform: matrix(0, 1, 5, 0, 1, 10);
 }
-.card10:hover{
-    transform: skew(-20deg,-20deg);
+
+.card10:hover {
+    transform: skew(-20deg, -20deg);
 }
-.card11:hover{
+
+.card11:hover {
     transform: scale(1.15);
 }
-.card12:hover{
+
+.card12:hover {
     transform: translate(3rem, -4ex);
+}
+@keyframes bladeemoves {
+    0%{
+        left: -5%;
+    }
+    25%{
+        right: 10%;
+    }
+    50%{
+        left: -10%;
+    }
+    75%{
+        right: 10%;
+    }
+    100%{
+        left: 5%;
+    }
+
 }
