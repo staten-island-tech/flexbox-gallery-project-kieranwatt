@@ -58,18 +58,39 @@ body,
     box-shadow: 5px 5px 10px black;
     transition: all 0.3s;
 }
+.card1:hover{
+    transform: rotate(360deg);
+}
 .card2:hover{
     transform: scale(1.15);
+}
+.card3:hover{
+    transform: matrix(0, 1, 1, 0, 1, 0);
+}
+.card4:hover{
+    transform: translate(-3rem, -4ex);
 }
 .card5:hover{
     transform: scale(1.15);
 }
+.card6:hover{
+    transform: skew(10deg,10deg);
+}
+.card7:hover{
+    transform: rotate(180deg);
+}
 .card8:hover{
     transform: scale(1.15);
+}
+.card9:hover{
+    transform: matrix(0, 1, 5, 0, 1, 10);
+}
+.card10:hover{
+    transform: skew(-20deg,-20deg);
 }
 .card11:hover{
     transform: scale(1.15);
 }
-.card1:hover{
-    transform: scale(1.15);
+.card12:hover{
+    transform: translate(3rem, -4ex);
 }
