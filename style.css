@@ -58,6 +58,18 @@ body,
     box-shadow: 5px 5px 10px black;
     transition: all 0.3s;
 }
-.card:hover{
+.card2:hover{
+    transform: scale(1.15);
+}
+.card5:hover{
+    transform: scale(1.15);
+}
+.card8:hover{
+    transform: scale(1.15);
+}
+.card11:hover{
+    transform: scale(1.15);
+}
+.card1:hover{
     transform: scale(1.15);
 }
