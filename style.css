@@ -14,7 +14,8 @@ body,
 .main-container {
     display: flex;
     align-items: center;
-    
+    width: 100vw;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -28,65 +29,37 @@ body,
     position: relative
 }
 
-.section-1 {
-    box-sizing: border-box;
-    width: 75%;
-    padding: 5px;
-    font-size: 1rem;
-    margin: auto;
-    position: relative;
-}
-
-.section-2 {
-    box-sizing: border-box;
-    width: 75%;
-    padding: 5px;
-    font-size: 1rem;
-    margin: auto;
-    position: relative;
-}
-
-.section-3 {
-    box-sizing: border-box;
-    width: 75%;
-    padding: 5px;
-    font-size: 1rem;
-    margin: auto;
-    position: relative;
-}
-
-.section-4 {
-    box-sizing: border-box;
-    width: 75%;
-    padding: 5px;
-    font-size: 1rem;
-    margin: auto;
-    position: relative;
-}
 
 .card {
     box-sizing: border-box;
-    width: 100%;
-    padding: 5px;
+    width: 30%;
+    padding: 1px;
+    margin: 10px;
     font-size: 1rem;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 10px 10px 10px black;
     transition: all 0.3s;
+    display: flex;
+    justify-content: center;
 }
+
 @media screen and (max-width: 1200px) {
     .card {
-       width: 40%; 
+        width: 40%;
     }
 }
+
 @media screen and (max-width: 800px) {
     .card {
         width: 80%;
     }
 }
+
 @media screen and (max-width: 400px) {
     .card {
         width: 100%;
     }
 }
+
 .card1:hover {
     transform: rotate(360deg);
 }
@@ -134,20 +107,25 @@ body,
 .card12:hover {
     transform: translate(3rem, -4ex);
 }
+
 @keyframes bladeemoves {
-    0%{
+    0% {
         left: -5%;
     }
-    25%{
+
+    25% {
         right: 10%;
     }
-    50%{
+
+    50% {
         left: -10%;
     }
-    75%{
+
+    75% {
         right: 10%;
     }
-    100%{
+
+    100% {
         left: 5%;
     }
 
